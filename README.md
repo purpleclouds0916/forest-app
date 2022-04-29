@@ -29,8 +29,7 @@ src/data/StandDensityData.json
 
 に記載しています。
 
-####　開発モードでアプリを実行する方法
-
+#### 開発モードでアプリを実行する方法
 1 yarn start
 
 
