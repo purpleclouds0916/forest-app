@@ -147,7 +147,7 @@ const FormPage: VFC = () => {
     // ※高知大学のWi-Fiを利用しないと必ずエラーになる(セキュリティの関係上)
     void axios
       .post<CalculationResultType>(
-        process.env.REACT_APP_MANAGEMENT_CALCULATION_API ?? '',
+        'http://133.97.178.97:21312/calculation/',
         submitApiData,
       )
       .then((res) => {
